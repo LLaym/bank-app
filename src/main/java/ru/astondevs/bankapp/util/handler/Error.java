@@ -4,8 +4,8 @@ import lombok.Value;
 
 @Value
 public class Error {
-    private String status;
-    private String reason;
-    private String message;
-    private String timestamp;
+    String status;
+    String reason;
+    String message;
+    String timestamp;
 }
